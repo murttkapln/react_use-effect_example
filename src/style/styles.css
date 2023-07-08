@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.img-container {
+    height: 80%;
+    overflow: hidden;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    transition: 1s ease-in-out;
+    &:hover {
+        opacity: 1;
+        scale: 0.9;
+    }
+}
+
+.card-body {
+    height: 20%;
+}
